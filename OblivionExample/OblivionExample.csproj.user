@@ -7,21 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MagicList.xaml.cs">
+    <Compile Update="Views\MagicList.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MagicListItem.xaml.cs">
+    <Compile Update="Views\MagicListItem.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MagicList.xaml">
+    <Page Update="Views\MagicList.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MagicListItem.xaml">
+    <Page Update="Views\MagicListItem.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
