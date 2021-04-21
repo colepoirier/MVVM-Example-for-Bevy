@@ -1,0 +1,54 @@
+﻿<Window x:Class="OblivionExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OblivionExample"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance local:IMagicScreenVM}"        
+        Title="MainWindow" Height="500" Width="400">
+    <Grid>
+        <TabControl TabStripPlacement="Bottom" SelectedIndex="{Binding SelectedTabIndex}">
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/fish.png" Width="64" Height="64" />
+                    </StackPanel>
+                </TabItem.Header>
+                <local:MagicList DataContext="{Binding AllMagic}"/>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/tothe5vertices.JPG" Width="64" Height="64" />
+                    </StackPanel>
+                </TabItem.Header>
+                <local:MagicList DataContext="{Binding Potions}"/>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/fish.png" Width="64" Height="64" />
+                    </StackPanel>
+                </TabItem.Header>
+                <local:MagicList DataContext="{Binding TouchMagic}"/>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/fish.png" Width="64" Height="64" />
+                    </StackPanel>
+                </TabItem.Header>
+                <local:MagicList DataContext="{Binding SelfMagic}"/>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/fish.png" Width="64" Height="64" />
+                    </StackPanel>
+                </TabItem.Header>
+                <!-- <local:ActiveEffectsList DataContext="{Binding ActiveEffects}"/> -->
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fish.png" />
+    <None Remove="tiling.png" />
+    <None Remove="tothe5vertices.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fish.png" />
+    <Resource Include="tiling.png" />
+    <Resource Include="tothe5vertices.JPG" />
+  </ItemGroup>
+
+</Project>

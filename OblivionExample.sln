@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OblivionExample", "OblivionExample\OblivionExample.csproj", "{71D7A158-89DF-47EB-812C-5E4370BB5F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D7A158-89DF-47EB-812C-5E4370BB5F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D7A158-89DF-47EB-812C-5E4370BB5F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D7A158-89DF-47EB-812C-5E4370BB5F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D7A158-89DF-47EB-812C-5E4370BB5F55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26E74061-470D-4E05-A59E-62D6BB5344E9}
+	EndGlobalSection
+EndGlobal
